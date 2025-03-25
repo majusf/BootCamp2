@@ -15,7 +15,7 @@ body {
 }
 
 .header{
-    padding: 2.5rem;
+    padding: 0.9rem;
 }
 
 .flex-container{
@@ -72,7 +72,7 @@ body {
     margin-left: 0.9rem;
 }
 
-.button{
+button{
     background-color:#CCCCCC;
     color: #006969;
     font-size: 1rem;
@@ -84,12 +84,40 @@ body {
     cursor: pointer;
 }
 
-.button:hover{
+button:hover{
     background-color: #E9E9E9;
 }
 
 .image-group{
     text-align: center;
+}
+
+.form-register{
+    background-color: #006969;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding: 0.9rem;
+    margin: 10px;
+    height: 22px;
+    width: 95%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #008584;
+}
+
+a{
+    color: #E9E9E9;
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 620px){
